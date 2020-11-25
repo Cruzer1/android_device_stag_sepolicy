@@ -1,0 +1,3 @@
+# Allow theme_prop
+allow priv_app theme_prop:file { read open getattr }; 
+get_prop(priv_app, theme_prop)
